@@ -1,8 +1,5 @@
-spring:
-  application:
-    name: dh-maquinaria-service
-  cloud:
-    config:
-      uri: ${CONFIG_SERVER:http://localhost:8888}
-  profiles:
-    active: dev
+server:
+  port: ${PORT:9999}
+
+url_dnrpa: https://www.dnrpa.gov.ar/portal_dnrpa
+catalogo_maquina_maximo: 650
