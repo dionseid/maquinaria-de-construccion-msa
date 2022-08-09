@@ -1,11 +1,1 @@
-server:
-  port: ${PORT:8888}
-
-spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/dionseid/maquinaria-de-construccion-msa
+global-message: Configuration server is alive!
